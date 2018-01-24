@@ -9,7 +9,7 @@
 
 <body>
 <!-- 创建lee.Person的实例，该实例的实例名为p1 -->
-<jsp:useBean id="p1" class="lee.Person" scope="page"/>
+<jsp:useBean id="p1" class="Person" scope="page"/>
 <!-- 设置p1的name属性值 -->
 <jsp:setProperty name="p1" property="name" value="wawa"/>
 <!-- 设置p1的age属性值 -->
